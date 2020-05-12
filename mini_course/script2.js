@@ -13,4 +13,4 @@ console.log("Meow")
 console.log("Cat age is: " + cat.name)
 }
 
-meow()
+document.querySelector("button").addEventListener("click",meow())
